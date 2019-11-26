@@ -1,10 +1,7 @@
 let resumeData = {
-  imagebaseurl: "kodeman14.github.io/",
+  // imagebaseurl: "kodeman14.github.io/",
   name: "Ankit Curchorcar",
   role: "Software Developer and Consultant",
-  linkedinId: "linkedin.com/in/ankyc",
-  emailAddress: "ankit.curchorcar@gmail.com",
-  // "skypeId": "cranky.14x",
   roleDescription: "",
   socialMedia: [
     {
@@ -23,24 +20,32 @@ let resumeData = {
       className: "fa fa-twitter"
     }
   ],
-  aboutme:
+  aboutMe:
     "Fully Stacked Developer emphasizing on good coding and design principles, with professional expertise in Web development and Agile process frameworks!",
-  address: "Toronto, Ontario, Canada",
-  website: "about.me/ankyc",
+  contact: {
+    linkedinId: "linkedin.com/in/ankyc",
+    emailAddress: "ankit.curchorcar@gmail.com",
+    // "skypeId": "cranky.14x",
+    phone: "(+1) 647 465-4555",
+    address: "Toronto, Ontario, Canada",
+    website: "about.me/ankyc"
+  },
   education: [
     {
-      UniversityName: "University of Waterloo",
-      specialization: "Mathematics",
-      MonthOfPassing: "August",
-      YearOfPassing: "2020",
-      Achievements: "Some Achievements"
+      universityName: "University of Waterloo",
+      studyType: "Bachelor",
+      programType: "Mathematics",
+      monthOfPassing: "August",
+      yearOfPassing: "2020"
+      // achievements: "Some achievements"
     },
     {
-      UniversityName: "University of Toronto",
-      specialization: "Some specialization",
-      MonthOfPassing: "Jan",
-      YearOfPassing: "2018",
-      Achievements: "Some Achievements"
+      universityName: "University of Toronto",
+      studyType: "Certificate",
+      programType: "PM / BA",
+      monthOfPassing: "December",
+      yearOfPassing: "2017"
+      // achievements: "Some achievements"
     }
   ],
   work: [
@@ -48,8 +53,8 @@ let resumeData = {
       companyName: "Some Company",
       specialization: "Some specialization",
       monthOfLeaving: "Jan",
-      yearOfLeaving: "2018",
-      Achievements: "Some Achievements"
+      yearOfLeaving: "2018"
+      // achievements: "Some achievements"
     }
   ],
   skillsDescription: "Fully Stacked",
@@ -68,22 +73,22 @@ let resumeData = {
     {
       name: "project1",
       description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg"
+      imgurl: "img/portfolio/phone.jpg"
     },
     {
       name: "project2",
       description: "mobileapp",
-      imgurl: "images/portfolio/project.jpg"
+      imgurl: "img/portfolio/project.jpg"
     },
     {
       name: "project3",
       description: "mobileapp",
-      imgurl: "images/portfolio/project2.png"
+      imgurl: "img/portfolio/project2.png"
     },
     {
       name: "project4",
       description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg"
+      imgurl: "img/portfolio/phone.jpg"
     }
   ],
   testimonials: [

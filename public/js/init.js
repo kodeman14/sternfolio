@@ -64,10 +64,10 @@ jQuery(document).ready(function($) {
     offset: "35%"
   });
 
-  /*----------------------------------------------------*/
-  /*	Make sure that #header-background-image height is
-/* equal to the browser height.
------------------------------------------------------- */
+  /*----------------------------------------------------
+   *	Make sure that #header-background-image height is
+   * equal to the browser height.
+   *------------------------------------------------------ */
 
   $("header").css({ height: $(window).height() });
   $(window).on("resize", function() {

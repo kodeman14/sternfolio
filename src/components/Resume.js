@@ -17,15 +17,16 @@ export default class Resume extends Component {
                 return (
                   <div className="row item">
                     <div className="twelve columns">
-                      <h3>{item.UniversityName}</h3>
+                      <h3>{item.universityName}</h3>
                       <p className="info">
-                        {item.specialization}
+                        {item.studyType}
+                        <span>&bull;</span> {item.programType}
                         <span>&bull;</span>{" "}
                         <em className="date">
-                          {item.MonthOfPassing} {item.YearOfPassing}
+                          {item.monthOfPassing} {item.yearOfPassing}
                         </em>
                       </p>
-                      <p>{item.Achievements}</p>
+                      {/*<p>{item.achievements}</p>*/}
                     </div>
                   </div>
                 );
@@ -51,10 +52,10 @@ export default class Resume extends Component {
                         {item.specialization}
                         <span>&bull;</span>{" "}
                         <em className="date">
-                          {item.monthOfLeaving} {item.YearOfLeaving}
+                          {item.monthOfLeaving} {item.yearOfLeaving}
                         </em>
                       </p>
-                      <p>{item.Achievements}</p>
+                      {/*<p>{item.achievements}</p>*/}
                     </div>
                   </div>
                 );

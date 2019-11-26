@@ -9,9 +9,9 @@ export default class Header extends Component {
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
               Show navigation
             </a>
-            <a className="mobile-btn" href="#" title="Hide navigation">
+            {/*<a className="mobile-btn" href="#" title="Hide navigation">
               Hide navigation
-            </a>
+            </a>*/}
             <ul id="nav" className="nav">
               <li className="current">
                 <a className="smoothscroll" href="#home">
@@ -28,16 +28,16 @@ export default class Header extends Component {
                   Resume
                 </a>
               </li>
-              <li>
+              {/*<li>
                 <a className="smoothscroll" href="#portfolio">
                   Works
                 </a>
-              </li>
-              <li>
+              </li>*/}
+              {/*<li>
                 <a className="smoothscroll" href="#skills">
                   Skills
                 </a>
-              </li>
+              </li>*/}
               {/*<li>
                 <a className="smoothscroll" href="#testimonials">
                   Testimonials
@@ -53,8 +53,13 @@ export default class Header extends Component {
 
           <div className="row banner">
             <div className="banner-text">
-              <h1 className="responsive-headline">{resumeData.name}.</h1>
-              <h2 style={{ color: "#fff", fontFamily: "sans-serif " }}>
+              <h1
+                className="responsive-headline"
+                style={{ color: "red", fontFamily: "sans-serif " }}
+              >
+                {resumeData.name}
+              </h1>
+              <h2 style={{ color: "yellow", fontFamily: "sans-serif " }}>
                 I am a {resumeData.role}
               </h2>
               <h3>{resumeData.roleDescription}</h3>
@@ -64,7 +69,11 @@ export default class Header extends Component {
                   resumeData.socialLinks.map(item => {
                     return (
                       <li key={item.name}>
-                        <a href={item.url} target="_blank">
+                        <a
+                          href={item.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <i className={item.className}></i>
                         </a>
                       </li>
