@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be011ede5b8feb37af324f63c21ad8e7",
+    "revision": "622dae9c35b6ae66d18c5f9d3d987deb",
     "url": "/stern-folio/index.html"
   },
   {
-    "revision": "19dee13c8a861083ea56",
+    "revision": "80d44f50aed46b0eb11d",
     "url": "/stern-folio/static/css/main.213bfceb.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stern-folio/static/js/2.ea34dee6.chunk.js"
   },
   {
-    "revision": "19dee13c8a861083ea56",
-    "url": "/stern-folio/static/js/main.ee7d09d4.chunk.js"
+    "revision": "80d44f50aed46b0eb11d",
+    "url": "/stern-folio/static/js/main.85abc33e.chunk.js"
   },
   {
     "revision": "3ade99db9824b144d3cf",

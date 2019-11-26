@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/stern-folio/precache-manifest.73a378b6a28f5aa05425943b22ac63f3.js"
+  "/stern-folio/precache-manifest.ebf1097e253aa573f1861f1b00e8b338.js"
 );
 
 self.addEventListener('message', (event) => {
