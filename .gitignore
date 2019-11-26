@@ -1,0 +1,12 @@
+# packages
+node_modules/
+package-lock.json
+
+# other
+examples/
+older/
+build/
+
+# misc
+.env
+.DS_Store
