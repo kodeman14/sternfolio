@@ -19,11 +19,11 @@ let resumeData = {
 			url: 'http://twitter.com/ankyc14',
 			className: 'fa fa-twitter'
 		},
-		{
-			name: 'facebook',
-			url: 'http://fb.com/grub.addict',
-			className: 'fa fa-facebook'
-		},
+		// {
+		// 	name: 'facebook',
+		// 	url: 'http://fb.com/grub.addict',
+		// 	className: 'fa fa-facebook'
+		// },
 		{
 			name: 'instagram',
 			url: 'http://instagram.com/ankyc14',
@@ -36,7 +36,7 @@ let resumeData = {
 		// achievements: "Some achievements"
 		{
 			uniName: 'University of Waterloo',
-			studyType: 'Bachelor',
+			studyType: "Bachelor's",
 			programType: 'Mathematics',
 			finishDate: 'August 2020'
 		},
@@ -51,6 +51,12 @@ let resumeData = {
 			studyType: 'Certificate',
 			programType: 'Project Management',
 			finishDate: 'December 2017'
+		},
+		{
+			uniName: 'John Fraser Secondary School',
+			studyType: 'Secondary School',
+			programType: 'Computer/Science',
+			finishDate: 'June 2011'
 		}
 	],
 	work: [
@@ -74,66 +80,30 @@ let resumeData = {
 			endDate: 'March 2018'
 		}
 	],
-	skillsDescription: 'Fully Stacked',
-	// skillsType: ["Technical", "Interpersonal"],
-	skills: [
-		{
-			skillName: 'HTML/CSS',
-			percentage: 95
-		},
-		{
-			skillName: 'JavaScript',
-			percentage: 90
-		},
-		{
-			skillName: 'TypeScript',
-			percentage: 75
-		},
-		{
-			skillName: 'AngularJs',
-			percentage: 85
-		},
-		{
-			skillName: 'ReactJs',
-			percentage: 75
-		},
-		{
-			skillName: 'MySql',
-			percentage: 75
-		},
-		{
-			skillName: 'VueJS',
-			percentage: 80
-		},
-		{
-			skillName: 'Other',
-			percentage: 100
-		}
-	],
 	projects: [
 		{
 			name: 'Goosenstein',
 			link: 'https://github.com/kodeman14/Goosenstein',
-			imgurl: 'img/goosenstein.png',
+			imgurl: 'img/projects/goosenstein.png',
 			specs: [400, 200]
 		},
 		{
 			name: 'Dentek',
 			link: 'https://sites.google.com/view/mydentekoman/home',
-			imgurl: 'img/dentek.jpg',
+			imgurl: 'img/projects/dentek.jpg',
 			specs: [200, 200]
 		},
 		{
 			name: 'TD Alexa',
 			link:
 				'https://www.td.com/ca/en/personal-banking/how-to/td-skill-amazon-alexa/',
-			imgurl: 'img/td-alexa.jpg',
+			imgurl: 'img/projects/td-alexa.jpg',
 			specs: [400, 200]
 		},
 		{
 			name: 'New ideas!',
 			link: '/#',
-			imgurl: 'img/coming-soon.jpg',
+			imgurl: 'img/projects/coming-soon.jpg',
 			specs: [200, 200]
 		}
 	],

@@ -66,7 +66,7 @@ export default class Header extends Component {
 									<span className='rainbow'>I'm a {resumeData.headerJob}</span>
 								</h2>
 							</div>
-							<h3>{resumeData.roleDescription}</h3>
+							<h3 style={{ color: 'white' }}>{resumeData.roleDescription}</h3>
 							<hr />
 						</div>
 						<ul className='social'>
