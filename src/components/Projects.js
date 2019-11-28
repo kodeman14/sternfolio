@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 export default class Porfolio extends Component {
 	render() {
-		let resumeData = this.props.resumeData
+		let jsonData = this.props.jsonData
 		return (
 			<section id='portfolio'>
 				<div className='row'>
@@ -10,8 +10,8 @@ export default class Porfolio extends Component {
 						<div
 							id='portfolio-wrapper'
 							className='bgrid-quarters s-bgrid-thirds cf'>
-							{resumeData.projects &&
-								resumeData.projects.map((item) => {
+							{jsonData.myworks &&
+								jsonData.myworks.map((item) => {
 									return (
 										// {/* <a href='#modal-01'>
 										// 	<div className='overlay'>

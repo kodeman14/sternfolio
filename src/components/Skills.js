@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 export default class Resume extends Component {
 	render() {
-		let skillsData = this.props.skillsData
+		let jsonData = this.props.jsonData
 		return (
 			<section id='skills'>
 				<div className='row skill'>
@@ -12,12 +12,12 @@ export default class Resume extends Component {
 					</div> */}
 
 					<div className='six columns main-col'>
-						<p>{skillsData.techSkills.desc}</p>
+						<p>{jsonData.techSkills.desc}</p>
 
 						<div className='bars'>
 							<ul className='skills'>
-								{skillsData.techSkills.list &&
-									skillsData.techSkills.list.map((item) => {
+								{jsonData.techSkills.list &&
+									jsonData.techSkills.list.map((item) => {
 										return (
 											<li>
 												<span
@@ -31,12 +31,12 @@ export default class Resume extends Component {
 						</div>
 					</div>
 					<div className='six columns side-col'>
-						<p>{skillsData.softSkills.desc}</p>
+						<p>{jsonData.softSkills.desc}</p>
 
 						<div className='bars'>
 							<ul className='skills'>
-								{skillsData.softSkills.list &&
-									skillsData.softSkills.list.map((item) => {
+								{jsonData.softSkills.list &&
+									jsonData.softSkills.list.map((item) => {
 										return (
 											<li>
 												<span

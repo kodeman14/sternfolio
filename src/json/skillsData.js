@@ -1,4 +1,4 @@
-let skillsData = {
+let jsonData = {
 	// skillsType: ["Technical", "Interpersonal"],
 	techSkills: {
 		desc: 'Technological',
@@ -76,4 +76,4 @@ let skillsData = {
 	}
 }
 
-export default skillsData
+export default jsonData

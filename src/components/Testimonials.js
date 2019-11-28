@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 export default class Testimonials extends Component {
 	render() {
-		let resumeData = this.props.resumeData
+		let jsonData = this.props.jsonData
 		return (
 			<section id='testimonials'>
 				<div className='text-container'>
@@ -14,8 +14,8 @@ export default class Testimonials extends Component {
 						<div className='ten columns flex-container'>
 							<div className='flexslider'>
 								<ul className='slides'>
-									{resumeData.testimonials &&
-										resumeData.testimonials.map((item) => {
+									{jsonData.testimonials &&
+										jsonData.testimonials.map((item) => {
 											return (
 												<li>
 													<blockquote>

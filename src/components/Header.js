@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 export default class Header extends Component {
 	render() {
-		let resumeData = this.props.resumeData
+		let jsonData = this.props.jsonData
 		return (
 			<React.Fragment>
 				<header id='home'>
@@ -23,7 +23,11 @@ export default class Header extends Component {
 									About
 								</a>
 							</li>
-
+							<li>
+								<a className='smoothscroll' href='#resume'>
+									Resume
+								</a>
+							</li>
 							<li>
 								<a className='smoothscroll' href='#portfolio'>
 									Projects
@@ -35,11 +39,6 @@ export default class Header extends Component {
 								</a>
 							</li>
 							{/* use react-router here maybe? */}
-							{/* <li>
-                <a className="smoothscroll" href="#resume">
-                  Resume
-                </a>
-              </li> */}
 							{/* <li>
                 <a className="smoothscroll" href="#testimonials">
                   Testimonials
@@ -56,22 +55,22 @@ export default class Header extends Component {
 					{/* <h1
 						className='responsive-headline'
 						style={{ color: 'red', fontFamily: 'sans-serif ' }}>
-						{resumeData.name}
+						{jsonData.name}
 					</h1> */}
 
 					<div className='row banner'>
 						<div className='banner-text'>
 							<div className='typewriter'>
 								<h2>
-									<span className='rainbow'>I'm a {resumeData.headerJob}</span>
+									<span className='rainbow'>I'm a {jsonData.headerJob}</span>
 								</h2>
 							</div>
-							<h3 style={{ color: 'white' }}>{resumeData.roleDescription}</h3>
+							<h3 style={{ color: 'white' }}>{jsonData.roleDescription}</h3>
 							<hr />
 						</div>
 						<ul className='social'>
-							{resumeData.socialMedia &&
-								resumeData.socialMedia.map((item) => {
+							{jsonData.socialMedia &&
+								jsonData.socialMedia.map((item) => {
 									return (
 										<li key={item.name}>
 											<a
