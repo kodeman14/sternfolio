@@ -1,35 +1,37 @@
 let resumeData = {
 	// imagebaseurl: "kodeman14.github.io/",
-	name: 'Ankit Curchorcar',
-	role: 'Software Developer and Consultant',
-	roleDescription: '',
+	fullName: 'Ankit Curchorcar',
+	headerJob: 'Software Developer and Consultant',
+	roleDescription: 'at your service, how can I add more value to your day?',
 	socialMedia: [
 		{
 			name: 'linkedin',
-			url: 'linkedin.com/in/ankyc',
+			url: 'http://linkedin.com/in/ankyc',
 			className: 'fa fa-linkedin'
 		},
 		{
 			name: 'github',
-			url: 'github.com/kodeman14',
+			url: 'http://github.com/kodeman14',
 			className: 'fa fa-github'
 		},
 		{
 			name: 'twitter',
 			url: 'http://twitter.com/ankyc14',
 			className: 'fa fa-twitter'
+		},
+		{
+			name: 'facebook',
+			url: 'http://fb.com/grub.addict',
+			className: 'fa fa-facebook'
+		},
+		{
+			name: 'instagram',
+			url: 'http://instagram.com/ankyc14',
+			className: 'fa fa-instagram'
 		}
 	],
 	aboutMe:
 		'Fully Stacked Developer emphasizing on good coding and design principles, with professional expertise in Web development and Agile process frameworks!',
-	contact: {
-		linkedinId: 'linkedin.com/in/ankyc',
-		emailAddress: 'ankit.curchorcar@gmail.com',
-		// "skypeId": "cranky.14x",
-		phone: '(+1) 647 465-4555',
-		address: 'Toronto, Ontario, Canada',
-		website: 'about.me/ankyc'
-	},
 	education: [
 		// achievements: "Some achievements"
 		{
@@ -72,7 +74,7 @@ let resumeData = {
 			endDate: 'March 2018'
 		}
 	],
-	// skillsDescription: "Fully Stacked",
+	skillsDescription: 'Fully Stacked',
 	// skillsType: ["Technical", "Interpersonal"],
 	skills: [
 		{
@@ -102,28 +104,37 @@ let resumeData = {
 		{
 			skillName: 'VueJS',
 			percentage: 80
+		},
+		{
+			skillName: 'Other',
+			percentage: 100
 		}
 	],
-	portfolio: [
+	projects: [
 		{
 			name: 'Goosenstein',
-			description: 'https://github.com/kodeman14/Goosenstein',
-			imgurl: 'img/goosenstein.png'
+			link: 'https://github.com/kodeman14/Goosenstein',
+			imgurl: 'img/goosenstein.png',
+			specs: [400, 200]
 		},
 		{
 			name: 'Dentek',
-			// description: "mobileapp",
-			imgurl: 'img/portfolio/project.jpg'
+			link: 'https://sites.google.com/view/mydentekoman/home',
+			imgurl: 'img/dentek.jpg',
+			specs: [200, 200]
 		},
 		{
 			name: 'TD Alexa',
-			// description: "mobileapp",
-			imgurl: 'img/portfolio/project2.png'
+			link:
+				'https://www.td.com/ca/en/personal-banking/how-to/td-skill-amazon-alexa/',
+			imgurl: 'img/td-alexa.jpg',
+			specs: [400, 200]
 		},
 		{
-			name: 'project4',
-			// description: "mobileapp",
-			imgurl: 'img/portfolio/phone.jpg'
+			name: 'New ideas!',
+			link: '/#',
+			imgurl: 'img/coming-soon.jpg',
+			specs: [200, 200]
 		}
 	],
 	testimonials: [
@@ -135,7 +146,15 @@ let resumeData = {
 			description: 'This is a sample testimonial',
 			name: 'Some technical guy'
 		}
-	]
+	],
+	contact: {
+		linkedinId: 'linkedin.com/in/ankyc',
+		emailAddress: 'ankit.curchorcar@gmail.com',
+		// "skypeId": "cranky.14x",
+		// phone: '(+1) 647 465-4555',
+		address: 'Toronto, Ontario, Canada',
+		website: 'https://about.me/ankyc'
+	}
 }
 
 export default resumeData

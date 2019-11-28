@@ -53,34 +53,37 @@ export default class Header extends Component {
 						</ul>
 					</nav>
 
+					{/* <h1
+						className='responsive-headline'
+						style={{ color: 'red', fontFamily: 'sans-serif ' }}>
+						{resumeData.name}
+					</h1> */}
+
 					<div className='row banner'>
 						<div className='banner-text'>
-							<h1
-								className='responsive-headline'
-								style={{ color: 'red', fontFamily: 'sans-serif ' }}>
-								{resumeData.name}
-							</h1>
-							<h2 style={{ color: 'yellow', fontFamily: 'sans-serif ' }}>
-								I am a {resumeData.role}
-							</h2>
+							<div className='typewriter'>
+								<h2>
+									<span className='rainbow'>I'm a {resumeData.headerJob}</span>
+								</h2>
+							</div>
 							<h3>{resumeData.roleDescription}</h3>
 							<hr />
-							<ul className='social'>
-								{resumeData.socialLinks &&
-									resumeData.socialLinks.map((item) => {
-										return (
-											<li key={item.name}>
-												<a
-													href={item.url}
-													target='_blank'
-													rel='noopener noreferrer'>
-													<i className={item.className}></i>
-												</a>
-											</li>
-										)
-									})}
-							</ul>
 						</div>
+						<ul className='social'>
+							{resumeData.socialMedia &&
+								resumeData.socialMedia.map((item) => {
+									return (
+										<li key={item.name}>
+											<a
+												href={item.url}
+												target='_blank'
+												rel='noopener noreferrer'>
+												<i className={item.className}></i>
+											</a>
+										</li>
+									)
+								})}
+						</ul>
 					</div>
 
 					<p className='scrolldown'>

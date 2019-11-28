@@ -20,6 +20,7 @@
 	z-index: 1043;
 	position: fixed;
 	outline: none !important;
+	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 }
 
