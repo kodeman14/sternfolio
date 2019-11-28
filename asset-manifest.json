@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/stern-folio/static/css/main.28ac71e5.chunk.css",
-    "main.js": "/stern-folio/static/js/main.858abd2a.chunk.js",
-    "main.js.map": "/stern-folio/static/js/main.858abd2a.chunk.js.map",
+    "main.js": "/stern-folio/static/js/main.398a506b.chunk.js",
+    "main.js.map": "/stern-folio/static/js/main.398a506b.chunk.js.map",
     "runtime-main.js": "/stern-folio/static/js/runtime-main.5798ce12.js",
     "runtime-main.js.map": "/stern-folio/static/js/runtime-main.5798ce12.js.map",
     "static/js/2.ea34dee6.chunk.js": "/stern-folio/static/js/2.ea34dee6.chunk.js",
     "static/js/2.ea34dee6.chunk.js.map": "/stern-folio/static/js/2.ea34dee6.chunk.js.map",
     "index.html": "/stern-folio/index.html",
-    "precache-manifest.5675478d2aa6da8d2b2822bb88636f47.js": "/stern-folio/precache-manifest.5675478d2aa6da8d2b2822bb88636f47.js",
+    "precache-manifest.3c43896fc3ef9db2d16ad2b97e175473.js": "/stern-folio/precache-manifest.3c43896fc3ef9db2d16ad2b97e175473.js",
     "service-worker.js": "/stern-folio/service-worker.js",
     "static/css/main.28ac71e5.chunk.css.map": "/stern-folio/static/css/main.28ac71e5.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.5798ce12.js",
     "static/js/2.ea34dee6.chunk.js",
     "static/css/main.28ac71e5.chunk.css",
-    "static/js/main.858abd2a.chunk.js"
+    "static/js/main.398a506b.chunk.js"
   ]
 }
