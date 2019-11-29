@@ -8,7 +8,7 @@
 - rainbow heading with typewriter animation
 - showcase projects with modal and hover view
 - display skills with chart and progress bar
--
+- adding routing for resume and error pages
 
 # sources
 

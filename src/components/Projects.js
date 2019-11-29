@@ -21,7 +21,7 @@ export default class Porfolio extends Component {
 											<div className='item-wrap'>
 												<img
 													alt='img'
-													src={`${item.imgurl}`}
+													src={`${item.imgUrl}`}
 													className='item-img'
 												/>
 												<div className='portfolio-item-meta'>

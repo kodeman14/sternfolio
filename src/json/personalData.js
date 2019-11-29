@@ -34,6 +34,15 @@ let jsonData = {
 		description:
 			'Fully Stacked Developer emphasizing on good coding and design principles, with professional expertise in Web development and Agile process frameworks!',
 		interests: 'Soccer, Basketball, Squash, Netflix'
+	},
+	errors: {
+		notFound: {
+			errType: 'error404',
+			message: "You've treaded down a path less travelled",
+			imgLink: 'img/error.jpg'
+		},
+		server: {},
+		others: {}
 	}
 }
 

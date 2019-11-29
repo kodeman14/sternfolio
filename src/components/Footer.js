@@ -20,18 +20,7 @@ export default class Footer extends Component {
 						</ul>
 					</div>
 					<div className='six columns'>
-						<ul className='social-links'>
-							{jsonData.socialMedia &&
-								jsonData.socialMedia.map((item) => {
-									return (
-										<li>
-											<a href={item.url}>
-												<i className={item.className} />
-											</a>
-										</li>
-									)
-								})}
-						</ul>
+						<ul className='other-deets'>2019 - Ankit Curchorcar</ul>
 					</div>
 					<div id='go-top'>
 						<a className='smoothscroll' title='Back to Top' href='#home'>
