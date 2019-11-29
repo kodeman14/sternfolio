@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "http://kodeman14.github.io/stern-folio/static/css/main.28ac71e5.chunk.css",
-    "main.js": "http://kodeman14.github.io/stern-folio/static/js/main.b9254aa2.chunk.js",
-    "main.js.map": "http://kodeman14.github.io/stern-folio/static/js/main.b9254aa2.chunk.js.map",
+    "main.js": "http://kodeman14.github.io/stern-folio/static/js/main.4da88e9a.chunk.js",
+    "main.js.map": "http://kodeman14.github.io/stern-folio/static/js/main.4da88e9a.chunk.js.map",
     "runtime-main.js": "http://kodeman14.github.io/stern-folio/static/js/runtime-main.2760e144.js",
     "runtime-main.js.map": "http://kodeman14.github.io/stern-folio/static/js/runtime-main.2760e144.js.map",
-    "static/js/2.e0fb5609.chunk.js": "http://kodeman14.github.io/stern-folio/static/js/2.e0fb5609.chunk.js",
-    "static/js/2.e0fb5609.chunk.js.map": "http://kodeman14.github.io/stern-folio/static/js/2.e0fb5609.chunk.js.map",
+    "static/js/2.ea34dee6.chunk.js": "http://kodeman14.github.io/stern-folio/static/js/2.ea34dee6.chunk.js",
+    "static/js/2.ea34dee6.chunk.js.map": "http://kodeman14.github.io/stern-folio/static/js/2.ea34dee6.chunk.js.map",
     "index.html": "http://kodeman14.github.io/stern-folio/index.html",
-    "precache-manifest.65baa362741d7c401beb9b599d6240ca.js": "http://kodeman14.github.io/stern-folio/precache-manifest.65baa362741d7c401beb9b599d6240ca.js",
+    "precache-manifest.771e50e230e1d1fe05169a6b7f5071f2.js": "http://kodeman14.github.io/stern-folio/precache-manifest.771e50e230e1d1fe05169a6b7f5071f2.js",
     "service-worker.js": "http://kodeman14.github.io/stern-folio/service-worker.js",
     "static/css/main.28ac71e5.chunk.css.map": "http://kodeman14.github.io/stern-folio/static/css/main.28ac71e5.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.2760e144.js",
-    "static/js/2.e0fb5609.chunk.js",
+    "static/js/2.ea34dee6.chunk.js",
     "static/css/main.28ac71e5.chunk.css",
-    "static/js/main.b9254aa2.chunk.js"
+    "static/js/main.4da88e9a.chunk.js"
   ]
 }
