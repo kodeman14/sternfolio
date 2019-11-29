@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a5216607808db5b0ad21ac1af79fb29",
+    "revision": "cf7a8711c2a8a8da174606521244ec9f",
     "url": "http://kodeman14.github.io/stern-folio/index.html"
   },
   {
