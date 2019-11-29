@@ -26,15 +26,19 @@ class App extends Component {
 						<Route exact path='/'>
 							<Header jsonData={personalData} />
 							<About jsonData={personalData} />
+							<Resume jsonData={resumeData} />
 							<Projects jsonData={projectData} />
 							<Skills jsonData={skillsData} />
 							{/* <Testimonials jsonData={contactData} /> */}
 							<ContactMe jsonData={contactData} />
 							<Footer jsonData={personalData} />
 						</Route>
-						<Route path='/resume'>
+						{/* <Route path='/resume'>
 							<Resume jsonData={resumeData} />
 						</Route>
+						<Route path='/testimonials'>
+							<Testimonials jsonData={contactData} />
+						</Route> */}
 						<Route path='*'>
 							<NotFound jsonData={personalData} />
 						</Route>

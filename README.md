@@ -9,6 +9,7 @@
 - showcase projects with modal and hover view
 - display skills with chart and progress bar
 - adding routing for resume and error pages
+- rendering resume using pdf hosted online
 
 # sources
 

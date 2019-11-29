@@ -20,7 +20,9 @@ export default class Footer extends Component {
 						</ul>
 					</div>
 					<div className='six columns'>
-						<ul className='other-deets'>2019 - Ankit Curchorcar</ul>
+						<ul className='other-deets'>
+							2019&mdash;{jsonData.fullName}&mdash;{jsonData.techStack}
+						</ul>
 					</div>
 					<div id='go-top'>
 						<a className='smoothscroll' title='Back to Top' href='#home'>

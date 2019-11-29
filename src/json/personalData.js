@@ -1,6 +1,8 @@
 let jsonData = {
 	// imagebaseurl: "kodeman14.github.io/",
 	fullName: 'Ankit Curchorcar',
+	techStack: 'ReactJs / NodeJs',
+	// buildYear: '2019',
 	headerJob: 'Software Developer and Consultant',
 	roleDescription: 'at your service, how can I add more value to your day?',
 	socialMedia: [
@@ -39,7 +41,7 @@ let jsonData = {
 		notFound: {
 			errType: 'error404',
 			message: "You've treaded down a path less travelled",
-			imgLink: 'img/error.jpg'
+			imgLink: 'img/error404.jpg'
 		},
 		server: {},
 		others: {}

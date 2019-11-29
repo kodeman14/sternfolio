@@ -21,7 +21,7 @@ export default class Resume extends Component {
 											<p className='info'>
 												{item.studyType}
 												<span>&bull;</span> {item.programType}
-												<span>&bull;</span>{' '}
+												<span>&bull;</span>
 												<em className='date'>{item.finishDate}</em>
 											</p>
 											{/*<p>{item.achievements}</p>*/}
@@ -48,9 +48,9 @@ export default class Resume extends Component {
 											<h3>{item.companyName}</h3>
 											<p className='info'>
 												{item.jobTitle}
-												<span>&bull;</span>{' '}
+												<span>&bull;</span>
 												<em className='date'>
-													{item.startDate} - {item.endDate}
+													{item.startDate} &ndash; {item.endDate}
 												</em>
 											</p>
 											{/*<p>{item.achievements}</p>*/}
