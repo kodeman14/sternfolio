@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/stern-folio/static/css/main.28ac71e5.chunk.css",
-    "main.js": "/stern-folio/static/js/main.e96bef56.chunk.js",
-    "main.js.map": "/stern-folio/static/js/main.e96bef56.chunk.js.map",
+    "main.js": "/stern-folio/static/js/main.a8c604d5.chunk.js",
+    "main.js.map": "/stern-folio/static/js/main.a8c604d5.chunk.js.map",
     "runtime-main.js": "/stern-folio/static/js/runtime-main.5798ce12.js",
     "runtime-main.js.map": "/stern-folio/static/js/runtime-main.5798ce12.js.map",
-    "static/js/2.e0fb5609.chunk.js": "/stern-folio/static/js/2.e0fb5609.chunk.js",
-    "static/js/2.e0fb5609.chunk.js.map": "/stern-folio/static/js/2.e0fb5609.chunk.js.map",
+    "static/js/2.ea34dee6.chunk.js": "/stern-folio/static/js/2.ea34dee6.chunk.js",
+    "static/js/2.ea34dee6.chunk.js.map": "/stern-folio/static/js/2.ea34dee6.chunk.js.map",
     "index.html": "/stern-folio/index.html",
-    "precache-manifest.01e5f36bde474e073e16c22e060c9643.js": "/stern-folio/precache-manifest.01e5f36bde474e073e16c22e060c9643.js",
+    "precache-manifest.55bcce72dbf4a180268bc7a98d630c36.js": "/stern-folio/precache-manifest.55bcce72dbf4a180268bc7a98d630c36.js",
     "service-worker.js": "/stern-folio/service-worker.js",
     "static/css/main.28ac71e5.chunk.css.map": "/stern-folio/static/css/main.28ac71e5.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.5798ce12.js",
-    "static/js/2.e0fb5609.chunk.js",
+    "static/js/2.ea34dee6.chunk.js",
     "static/css/main.28ac71e5.chunk.css",
-    "static/js/main.e96bef56.chunk.js"
+    "static/js/main.a8c604d5.chunk.js"
   ]
 }
