@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0d51d23f499437492dfd5e93932e027",
+    "revision": "9d74aa96ef94bdb97ed3ae95435c22ff",
     "url": "http://kodeman14.github.io/stern-folio/index.html"
   },
   {
-    "revision": "5f928eebbb695bc4827b",
+    "revision": "08b29cb1fe2c698e1e59",
     "url": "http://kodeman14.github.io/stern-folio/static/css/main.28ac71e5.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "http://kodeman14.github.io/stern-folio/static/js/2.ea34dee6.chunk.js"
   },
   {
-    "revision": "5f928eebbb695bc4827b",
-    "url": "http://kodeman14.github.io/stern-folio/static/js/main.4da88e9a.chunk.js"
+    "revision": "08b29cb1fe2c698e1e59",
+    "url": "http://kodeman14.github.io/stern-folio/static/js/main.299b95f5.chunk.js"
   },
   {
     "revision": "56869f2d9a16db696298",
