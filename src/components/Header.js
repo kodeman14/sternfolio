@@ -12,6 +12,7 @@ export default class Header extends Component {
 						<a className='mobile-btn' href='/#' title='Hide menu'>
 							Hide menu
 						</a>
+						{/* componentize this asap - todo ankit */}
 						<ul id='nav' className='nav'>
 							<li className='current'>
 								<a className='smoothscroll' href='#home'>
@@ -29,16 +30,16 @@ export default class Header extends Component {
 								</a>
 							</li>
 							<li>
-								<a className='smoothscroll' href='#portfolio'>
-									Projects
-								</a>
-							</li>
-							<li>
 								<a className='smoothscroll' href='#skills'>
 									Skills
 								</a>
 							</li>
-							{/* use react-router here maybe? */}
+							<li>
+								<a className='smoothscroll' href='#portfolio'>
+									Projects
+								</a>
+							</li>
+							{/* use react-router here maybe? - todo ankit */}
 							{/* <li>
                 <a className="smoothscroll" href="#testimonials">
                   Testimonials

@@ -24,8 +24,8 @@ class App extends Component {
 				<Header jsonData={personalData} />
 				<About jsonData={personalData} />
 				<Resume jsonData={resumeData} />
-				<Projects jsonData={projectData} />
 				<Skills jsonData={skillsData} />
+				<Projects jsonData={projectData} />
 				<ContactMe jsonData={contactData} />
 				<Footer jsonData={personalData} />
 

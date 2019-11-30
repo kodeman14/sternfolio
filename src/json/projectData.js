@@ -20,9 +20,27 @@ let projectData = {
 			specs: [400, 200]
 		},
 		{
+			name: 'United Way Tap',
+			// link: '',
+			imgUrl: 'img/projects/uw-cibc.jpg',
+			specs: [400, 200]
+		},
+		{
+			name: 'Volunteering Peel',
+			link: 'https://volunteeringpeel.org/',
+			imgUrl: 'img/projects/vp-logo.png',
+			specs: [400, 200]
+		},
+		{
 			name: 'New ideas!',
 			link: '/#',
-			imgUrl: 'img/projects/coming-soon.jpg',
+			imgUrl: 'img/temp/coming-soon.jpg',
+			specs: [200, 200]
+		},
+		{
+			name: 'Your Project Here!',
+			link: '/#',
+			imgUrl: 'img/temp/project-here.jpg',
 			specs: [200, 200]
 		}
 	]

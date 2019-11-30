@@ -11,6 +11,7 @@
 - adding routing for resume and error pages
 - rendering resume using pdf hosted online
 - planning to add sass/less with bootstrap
+- putting interests into bubble for display
 
 # sources
 

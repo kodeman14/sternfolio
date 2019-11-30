@@ -41,7 +41,7 @@ let jsonData = {
 		notFound: {
 			errType: 'error404',
 			message: "You've treaded down a path less travelled",
-			imgLink: 'img/error404.jpg'
+			imgLink: 'img/temp/error404.jpg'
 		},
 		server: {},
 		others: {}
