@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
+import NavMenu from '../new/NavMenu'
+
 export default class Header extends Component {
 	render() {
 		let jsonData = this.props.jsonData
+		let allSite = this.props.allSite
 		return (
 			<React.Fragment>
 				<header id='home'>
@@ -12,45 +15,7 @@ export default class Header extends Component {
 						<a className='mobile-btn' href='/#' title='Hide menu'>
 							Hide menu
 						</a>
-						{/* componentize this asap - todo ankit */}
-						<ul id='nav' className='nav'>
-							<li className='current'>
-								<a className='smoothscroll' href='#home'>
-									Home
-								</a>
-							</li>
-							<li>
-								<a className='smoothscroll' href='#about'>
-									About
-								</a>
-							</li>
-							<li>
-								<a className='smoothscroll' href='#resume'>
-									Resume
-								</a>
-							</li>
-							<li>
-								<a className='smoothscroll' href='#skills'>
-									Skills
-								</a>
-							</li>
-							<li>
-								<a className='smoothscroll' href='#portfolio'>
-									Projects
-								</a>
-							</li>
-							{/* use react-router here maybe? - todo ankit */}
-							{/* <li>
-                <a className="smoothscroll" href="#testimonials">
-                  Testimonials
-                </a>
-              </li> */}
-							<li>
-								<a className='smoothscroll' href='#contact'>
-									Contact
-								</a>
-							</li>
-						</ul>
+						<NavMenu allSite={allSite}></NavMenu>
 					</nav>
 
 					{/* <h1

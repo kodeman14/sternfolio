@@ -1,8 +1,4 @@
-let jsonData = {
-	// imagebaseurl: "kodeman14.github.io/",
-	fullName: 'Ankit Curchorcar',
-	techStack: 'ReactJs / NodeJs',
-	// buildYear: '2019',
+let personalData = {
 	headerJob: 'Software Developer and Consultant',
 	roleDescription: 'at your service, how can I add more value to your day?',
 	socialMedia: [
@@ -36,16 +32,7 @@ let jsonData = {
 		description:
 			'Fully Stacked Developer emphasizing on good coding and design principles, with professional expertise in Web development and Agile process frameworks!',
 		interests: 'Soccer, Basketball, Squash, Netflix'
-	},
-	errors: {
-		notFound: {
-			errType: 'error404',
-			message: "You've treaded down a path less travelled",
-			imgLink: 'img/temp/error404.jpg'
-		},
-		server: {},
-		others: {}
 	}
 }
 
-export default jsonData
+export default personalData

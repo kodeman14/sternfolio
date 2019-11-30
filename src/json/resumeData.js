@@ -1,4 +1,4 @@
-let jsonData = {
+let resumeData = {
 	education: [
 		// achievements: "Some achievements"
 		{
@@ -55,4 +55,4 @@ let jsonData = {
 	]
 }
 
-export default jsonData
+export default resumeData

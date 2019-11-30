@@ -1,11 +1,11 @@
-let jsonData = {
+let skillsData = {
 	// skillsType: ["Technical", "Interpersonal"],
 	techSkills: {
 		desc: 'Technological',
 		list: [
 			{
 				skillName: 'JavaScript',
-				percentage: 75,
+				percentage: 85,
 				knewSince: 2010
 			},
 			{
@@ -35,7 +35,7 @@ let jsonData = {
 			},
 			{
 				skillName: 'VueJS',
-				percentage: 65,
+				percentage: 70,
 				knewSince: 2018
 			},
 			{
@@ -84,4 +84,4 @@ let jsonData = {
 	}
 }
 
-export default jsonData
+export default skillsData

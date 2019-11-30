@@ -32,6 +32,13 @@ let projectData = {
 			specs: [400, 200]
 		},
 		{
+			name: 'CIBC Android Feature',
+			link:
+				'https://www.cibc.com/en/personal-banking/ways-to-bank/mobile-services/cibc-app.html',
+			imgUrl: 'img/projects/cibc-mobile.png',
+			specs: [400, 200]
+		},
+		{
 			name: 'New ideas!',
 			link: '/#',
 			imgUrl: 'img/temp/coming-soon.jpg',

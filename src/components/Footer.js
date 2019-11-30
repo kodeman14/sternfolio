@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 export default class Footer extends Component {
 	render() {
 		let jsonData = this.props.jsonData
+		let allSite = this.props.allSite
 		return (
 			<footer id='footer'>
 				<div className='row'>
@@ -21,7 +22,7 @@ export default class Footer extends Component {
 					</div>
 					<div className='six columns'>
 						<ul className='other-deets'>
-							2019&mdash;{jsonData.fullName}&mdash;{jsonData.techStack}
+							2019&mdash;{allSite.fullName}&mdash;{allSite.techStack}
 						</ul>
 					</div>
 					<div id='go-top'>

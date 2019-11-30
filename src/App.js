@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 // import Testimonials from './components/Testimonials'
 // import NotFound from './components/Error404'
 
+import allSiteData from './json/allSiteData'
 import personalData from './json/personalData'
 import resumeData from './json/resumeData'
 import skillsData from './json/skillsData'
@@ -21,22 +22,22 @@ class App extends Component {
 	render() {
 		return (
 			<div className='App'>
-				<Header jsonData={personalData} />
+				<Header allSite={allSiteData} jsonData={personalData} />
 				<About jsonData={personalData} />
 				<Resume jsonData={resumeData} />
 				<Skills jsonData={skillsData} />
 				<Projects jsonData={projectData} />
 				<ContactMe jsonData={contactData} />
-				<Footer jsonData={personalData} />
+				<Footer allSite={allSiteData} jsonData={personalData} />
 
 				{/* <BrowserRouter basename={process.env.PUBLIC_URL}>
 					<Switch>
 						<Route exact path='/'>
-							<Header jsonData={personalData} />
+							<Header allSite={allSiteData} jsonData={personalData} />
 							<About jsonData={personalData} />
 							<Resume jsonData={resumeData} />
-							<Projects jsonData={projectData} />
 							<Skills jsonData={skillsData} />
+							<Projects jsonData={projectData} />
 							<ContactMe jsonData={contactData} />
 							<Footer jsonData={personalData} />
 						</Route>
@@ -47,7 +48,7 @@ class App extends Component {
 							<Testimonials jsonData={contactData} />
 						</Route>
 						<Route path='*'>
-							<NotFound jsonData={personalData} />
+							<NotFound jsonData={allSiteData} />
 						</Route>
 					</Switch>
 				</BrowserRouter> */}

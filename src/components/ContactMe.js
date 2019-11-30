@@ -15,7 +15,6 @@ export default class ContactUs extends Component {
 				<div className='row'>
 					<aside className='eigth columns footer-widgets'>
 						<div className='widget'>
-							<h4>LinkedIn: {jsonData.details.linkedinId}</h4>
 							<h4>Email: {jsonData.details.emailAddress}</h4>
 							<h4>Website: {jsonData.details.website}</h4>
 						</div>

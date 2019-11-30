@@ -20,9 +20,15 @@ export default class Resume extends Component {
 									jsonData.techSkills.list.map((item) => {
 										return (
 											<li>
+												{/* make width dynamic - todo ankit */}
 												<span
 													className={`bar-expand skill-length`}
-													style={{ width: `${item.percentage}%` }}></span>
+													style={{
+														width: `${item.percentage}%`,
+														textAlign: 'right'
+													}}>
+													{item.percentage}%
+												</span>
 												<em>{item.skillName}</em>
 											</li>
 										)
@@ -40,8 +46,13 @@ export default class Resume extends Component {
 										return (
 											<li>
 												<span
-													className={`bar-expand`}
-													style={{ width: `${item.percentage}%` }}></span>
+													className={`bar-expand skill-length`}
+													style={{
+														width: `${item.percentage}%`,
+														textAlign: 'right'
+													}}>
+													{item.percentage}%
+												</span>
 												<em>{item.skillName}</em>
 											</li>
 										)
