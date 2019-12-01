@@ -28,22 +28,23 @@ export default class Header extends Component {
 						<div className='banner-text'>
 							<div className='typewriter'>
 								<h2>
-									<span className='rainbow'>I'm a {jsonData.headerJob}</span>
+									<span className='rainbow'>{jsonData.headerJob}</span>
 								</h2>
 							</div>
-							<h3 style={{ color: 'white' }}>{jsonData.roleDescription}</h3>
+							<h3 style={{ color: 'black' }}>{jsonData.roleDescription}</h3>
 							<hr />
 						</div>
 						<ul className='social'>
 							{jsonData.socialMedia &&
-								jsonData.socialMedia.map((item) => {
+								jsonData.socialMedia.map((item, i) => {
 									return (
-										<li key={item.name}>
+										<li key={i}>
 											<a
+												key={i}
 												href={item.url}
 												target='_blank'
 												rel='noopener noreferrer'>
-												<i className={item.className}></i>
+												<i key={i} className={item.className}></i>
 											</a>
 										</li>
 									)

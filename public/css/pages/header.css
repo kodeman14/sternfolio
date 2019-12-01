@@ -102,67 +102,6 @@ header .scrolldown a:hover {
 	color: #11abb0;
 }
 
-/* typewriter effect */
-header .typewriter h2 {
-	font-family: monospace;
-	letter-spacing: 0.15em;
-	margin: 0 auto;
-	overflow: hidden;
-	white-space: nowrap;
-	border-right: 0.15em solid orange;
-	animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-}
-
-header .typewriter h2 .rainbow {
-	background-image: -webkit-gradient(
-		linear,
-		left top,
-		right top,
-		color-stop(0, #f22),
-		color-stop(0.15, #f2f),
-		color-stop(0.3, #22f),
-		color-stop(0.45, #2ff),
-		color-stop(0.6, #2f2),
-		color-stop(0.75, #2f2),
-		color-stop(0.9, #ff2),
-		color-stop(1, #f22)
-	);
-	background-image: gradient(
-		linear,
-		left top,
-		right top,
-		color-stop(0, #f22),
-		color-stop(0.15, #f2f),
-		color-stop(0.3, #22f),
-		color-stop(0.45, #2ff),
-		color-stop(0.6, #2f2),
-		color-stop(0.75, #2f2),
-		color-stop(0.9, #ff2),
-		color-stop(1, #f22)
-	);
-	color: transparent;
-	-webkit-background-clip: text;
-	background-clip: text;
-}
-
-@keyframes typing {
-	from {
-		width: 0;
-	}
-	to {
-		width: 100%;
-	}
-}
-@keyframes blink-caret {
-	from,
-	to {
-		border-color: transparent;
-	}
-	75% {
-		border-color: black;
-	}
-}
-
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul,
@@ -181,13 +120,13 @@ header .typewriter h2 .rainbow {
 	text-transform: uppercase;
 	letter-spacing: 2.5px;
 	margin: 0 auto;
-	z-index: 100;
+	z-index: 1000;
 	position: fixed;
 	left: 0;
 	top: 0;
 }
 .opaque {
-	background-color: #333;
+	background-color: lightgoldenrodyellow;
 }
 
 /* hide toggle button */

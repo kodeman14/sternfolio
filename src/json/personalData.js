@@ -1,24 +1,24 @@
 let personalData = {
-	headerJob: 'Software Developer and Consultant',
-	roleDescription: 'at your service, how can I add more value to your day?',
+	headerJob: 'Software Developer/Consultant; at your service!',
+	roleDescription: 'How can I add more value to your day?',
 	socialMedia: [
 		{
-			name: 'linkedin',
+			// key: 'linkedin',
 			url: 'http://linkedin.com/in/ankyc',
 			className: 'fa fa-linkedin'
 		},
 		{
-			name: 'github',
+			// key: 'github',
 			url: 'http://github.com/kodeman14',
 			className: 'fa fa-github'
 		},
 		{
-			name: 'twitter',
+			// key: 'twitter',
 			url: 'http://twitter.com/ankyc14',
 			className: 'fa fa-twitter'
 		},
 		// {
-		// 	name: 'facebook',
+		// 	key: 'facebook',
 		// 	url: 'http://fb.com/grub.addict',
 		// 	className: 'fa fa-facebook'
 		// },
@@ -31,7 +31,8 @@ let personalData = {
 	aboutMe: {
 		description:
 			'Fully Stacked Developer emphasizing on good coding and design principles, with professional expertise in Web development and Agile process frameworks!',
-		interests: 'Soccer, Basketball, Squash, Netflix'
+		interests: ['Soccer', 'Basketball', 'Squash', 'Netflix'],
+		knowledge: ['Angular', 'ReactJS', 'VueJS', 'Netflix']
 	}
 }
 

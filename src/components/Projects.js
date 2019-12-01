@@ -11,7 +11,7 @@ export default class Porfolio extends Component {
 							id='portfolio-wrapper'
 							className='bgrid-quarters s-bgrid-thirds cf'>
 							{jsonData.myworks &&
-								jsonData.myworks.map((item) => {
+								jsonData.myworks.map((item, i) => {
 									return (
 										// {/* <a href='#modal-01'>
 										// 	<div className='overlay'>
@@ -24,12 +24,13 @@ export default class Porfolio extends Component {
 													src={`${item.imgUrl}`}
 													className='item-img'
 												/>
-												<div className='portfolio-item-meta'>
+												<div className='portfolio-item-meta' key={i}>
 													<a
+														key={i}
 														href={item.link}
 														target='_blank'
 														rel='noopener noreferrer'>
-														<h5>{item.name}</h5>
+														<h5 key={i}>{item.name}</h5>
 													</a>
 												</div>
 											</div>
