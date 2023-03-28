@@ -1,6 +1,7 @@
 # packages
 node_modules/
 package-lock.json
+yarn.lock
 
 # other
 examples/
@@ -10,3 +11,5 @@ build/
 # misc
 .env
 .DS_Store
+.todo
+.readme
