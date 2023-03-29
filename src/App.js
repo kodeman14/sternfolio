@@ -1,60 +1,27 @@
-import React, { Component } from 'react'
+import React from "react";
 // import { Route, Switch, BrowserRouter } from 'react-router-dom'
-import Header from './components/Header'
-import About from './components/About'
-import Resume from './components/Resume'
-import Projects from './components/Projects'
-import Skills from './components/Skills'
-import ContactMe from './components/ContactMe'
-import Footer from './components/Footer'
-// import Testimonials from './components/Testimonials'
-// import NotFound from './components/Error404'
 
-import allSiteData from './json/allSiteData'
-import personalData from './json/personalData'
-import resumeData from './json/resumeData'
-import skillsData from './json/skillsData'
-import contactData from './json/contactData'
-import projectData from './json/projectData'
+import Header from "./components/semantics/Header";
+import Footer from "./components/semantics/Footer";
 
-class App extends Component {
-	// <Testimonials jsonData={contactData} />
-	render() {
-		return (
-			<div className='App'>
-				<Header allSite={allSiteData} jsonData={personalData} />
-				<About jsonData={personalData} />
-				<Resume jsonData={resumeData} />
-				<Skills jsonData={skillsData} />
-				<Projects jsonData={projectData} />
-				<ContactMe jsonData={contactData} />
-				<Footer allSite={allSiteData} jsonData={personalData} />
+import Home from "./components/Home";
+import ContactMe from "./components/connect/ContactMe";
+// import Testimonials from "./components/connect/Testimonials";
+// import NotFound from "./components/Error404";
 
-				{/* <BrowserRouter basename={process.env.PUBLIC_URL}>
-					<Switch>
-						<Route exact path='/'>
-							<Header allSite={allSiteData} jsonData={personalData} />
-							<About jsonData={personalData} />
-							<Resume jsonData={resumeData} />
-							<Skills jsonData={skillsData} />
-							<Projects jsonData={projectData} />
-							<ContactMe jsonData={contactData} />
-							<Footer jsonData={personalData} />
-						</Route>
-						<Route path='/resume'>
-							<Resume jsonData={resumeData} />
-						</Route>
-						<Route path='/testimonials'>
-							<Testimonials jsonData={contactData} />
-						</Route>
-						<Route path='*'>
-							<NotFound jsonData={allSiteData} />
-						</Route>
-					</Switch>
-				</BrowserRouter> */}
-			</div>
-		)
-	}
+import { allSiteData, contactData, personalData } from "./data/index";
+import "./App.css";
+
+function App() {
+  // <Testimonials jsonData={contactData} />
+  return (
+    <div className="App">
+      <Header allSiteData={allSiteData} jsonData={personalData} />
+      {/* <Home />
+      <ContactMe jsonData={contactData} /> */}
+      <Footer allSiteData={allSiteData} jsonData={personalData} />
+    </div>
+  );
 }
 
-export default App
+export default App;
