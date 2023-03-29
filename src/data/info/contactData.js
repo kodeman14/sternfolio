@@ -1,4 +1,4 @@
-let contactData = {
+export const contactData = {
   testimonials: [
     {
       description: "This is a sample testimonial",
@@ -18,5 +18,3 @@ let contactData = {
     website: "https://about.me/ankyc",
   },
 };
-
-export default contactData;

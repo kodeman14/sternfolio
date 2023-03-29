@@ -1,4 +1,4 @@
-let projectData = {
+export const projectData = {
   myworks: [
     {
       name: "Goosenstein",
@@ -50,5 +50,3 @@ let projectData = {
     },
   ],
 };
-
-export default projectData;

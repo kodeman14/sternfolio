@@ -1,32 +1,38 @@
-let personalData = {
-  headerJob: "Software Developer/Consultant at your service!",
+export const personalData = {
+  headerJob: "Software Consultant at your service!",
   roleDescription: "How can I add more value to your day?",
   socialMedia: [
     {
-      // key: 'linkedin',
+      name: "linkedin",
       url: "https://linkedin.com/in/ankyc",
-      className: "fa fa-linkedin",
+      icon: "FaLinkedIn",
     },
     {
-      // key: 'github',
+      name: "aboutme",
+      url: "https://about.me/ankyc",
+      icon: "FaIdCard",
+    },
+    {
+      name: "github",
       url: "https://github.com/kodeman14",
-      className: "fa fa-github",
+      icon: "FaGithubSquare",
     },
-    {
-      // key: 'twitter',
-      url: "https://twitter.com/ankyc14",
-      className: "fa fa-twitter",
-    },
+    // {
+    //   name: "instagram",
+    //   url: "https://instagram.com/ankyc14",
+    //   icon: "FaInstagramSquare",
+    // },
+    //
+    // {
+    //   name: 'twitter',
+    //   url: "https://twitter.com/ankyc14",
+    //   className: "fa fa-twitter",
+    // },
     // {
     // 	key: 'facebook',
     // 	url: 'http://fb.com/grub.addict',
     // 	className: 'fa fa-facebook'
     // },
-    {
-      name: "instagram",
-      url: "https://instagram.com/ankyc14",
-      className: "fa fa-instagram",
-    },
   ],
   aboutMe: {
     description:
@@ -35,5 +41,3 @@ let personalData = {
     knowledge: ["ReactJS", "Angular", "VueJS", "NodeJS"],
   },
 };
-
-export default personalData;

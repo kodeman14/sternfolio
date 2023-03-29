@@ -1,8 +1,8 @@
-let allSite = {
+export const allSiteData = {
   // imagebaseurl: "kodeman14.github.io/",
   fullName: "Ankit Curchorcar",
-  techStack: "ReactJs / NodeJs",
-  // buildYear: '2019',
+  techStack: "React + Tailwind",
+  buildYear: "2023",
   navmenu: [
     {
       item: "Home",
@@ -43,5 +43,3 @@ let allSite = {
     others: {},
   },
 };
-
-export default allSite;

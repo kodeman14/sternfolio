@@ -1,4 +1,4 @@
-let skillsData = {
+export const skillsData = {
   // skillsType: ["Technical", "Interpersonal"],
   techSkills: {
     desc: "Technological",
@@ -83,5 +83,3 @@ let skillsData = {
     ],
   },
 };
-
-export default skillsData;

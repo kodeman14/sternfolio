@@ -1,4 +1,4 @@
-let resumeData = {
+export const resumeData = {
   // achievements: "Some achievements"
   education: [
     {
@@ -90,5 +90,3 @@ let resumeData = {
     },
   ],
 };
-
-export default resumeData;
