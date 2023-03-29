@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
+// TODO : haven't changed this yet
+
 export default class About extends Component {
   render() {
     let jsonData = this.props.jsonData;
