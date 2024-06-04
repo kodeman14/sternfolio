@@ -16,9 +16,9 @@ function Home() {
   return (
     <>
       <AboutMe jsonData={personalData} />
-      <Resume jsonData={resumeData} />
-      <Skills jsonData={skillsData} />
-      <Projects jsonData={projectData} />
+      {/* <Resume jsonData={resumeData} /> */}
+      {/* <Skills jsonData={skillsData} /> */}
+      {/* <Projects jsonData={projectData} /> */}
     </>
   );
 }

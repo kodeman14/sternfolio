@@ -5,10 +5,10 @@ import NavMenu from "./NavMenu";
 function Header({ jsonData, allSiteData }) {
   return (
     <>
-      <header id="header" className="container m-auto text-3xl relative">
+      <header id="header" className="text-3xl relative">
         <div
           id="background"
-          className="h-screen max-h-[75vh] bg-contain bg-no-repeat bg-center blur-sm"
+          className="h-screen max-h-[60vh] bg-contain bg-no-repeat bg-center blur-sm"
         />
         {/* <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show menu">
@@ -18,7 +18,8 @@ function Header({ jsonData, allSiteData }) {
             Hide menu
           </a>
         </nav> */}
-        <section className="absolute top-0 left-1/2 text-center w-1/2 -translate-x-1/2">
+        <section className="absolute w-full top-0 left-1/2 -translate-x-1/2">
+          {/* className="absolute top-0 left-1/2 w-1/2 -translate-x-1/2"> */}
           <NavMenu allSiteData={allSiteData} />
         </section>
         <section className="absolute bottom-0 left-1/2 text-center w-1/2 -translate-x-1/2">

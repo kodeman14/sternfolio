@@ -17,8 +17,8 @@ function App() {
   return (
     <div className="App">
       <Header allSiteData={allSiteData} jsonData={personalData} />
-      {/* <Home />
-      <ContactMe jsonData={contactData} /> */}
+      <Home />
+      {/* <ContactMe jsonData={contactData} /> */}
       <Footer allSiteData={allSiteData} jsonData={personalData} />
     </div>
   );

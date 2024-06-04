@@ -15,7 +15,7 @@ function ContactMe({ jsonData }) {
         <aside className="eigth columns footer-widgets">
           <div className="widget">
             <h4>Email: {jsonData.details.emailAddress}</h4>
-            <h4>Website: {jsonData.details.website}</h4>
+            {/* <h4>Website: {jsonData.details.website}</h4> */}
           </div>
         </aside>
       </div>

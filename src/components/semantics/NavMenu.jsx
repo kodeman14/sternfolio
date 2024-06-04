@@ -1,23 +1,29 @@
 import React from "react";
 
-function NavMenu({ allSiteData }) {
+const NavMenu = ({ allSiteData }) => {
   return (
-    <ul className="sticky grid justify-center grid-cols-6 text-green-500">
-      {allSiteData.navmenu &&
-        allSiteData.navmenu.map((item, i) => (
-          <li key={i}>
-            <a className="" href={item.href}>
-              {item.item}
-            </a>
-          </li>
-          // <li>
-          // 	<a className='smoothscroll' href='#about'>
-          // 		About
-          // 	</a>
-          // </li>
-        ))}
-    </ul>
+    <div className="flex flex-row sticky justify-around bg-slate-700">
+      <span className="text-left text-white text-5xl font-serif">
+        {allSiteData.fullName}
+      </span>
+      <div className="sticky text-green-500 text-center">
+        <ul className="grid grid-cols-5 gap-8">
+          {allSiteData.navmenu.map((item, i) => (
+            <li key={i}>
+              <a className="" href={item.href}>
+                {item.name}
+              </a>
+            </li>
+            // <li>
+            // 	<a className='smoothscroll' href='#about'>
+            // 		About
+            // 	</a>
+            // </li>
+          ))}
+        </ul>
+      </div>
+    </div>
   );
-}
+};
 
 export default NavMenu;

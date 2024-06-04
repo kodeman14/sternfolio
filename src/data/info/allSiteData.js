@@ -4,32 +4,32 @@ export const allSiteData = {
   techStack: "React + Tailwind",
   buildYear: "2023",
   navmenu: [
+    // {
+    //   name: "Home",
+    //   href: "#home",
+    // },
     {
-      item: "Home",
-      href: "#home",
-    },
-    {
-      item: "About",
+      name: "About",
       href: "#about",
     },
     {
-      item: "Resume",
+      name: "Resume",
       href: "#resume",
     },
     {
-      item: "Skills",
+      name: "Skills",
       href: "#skills",
     },
     {
-      item: "Projects",
+      name: "Projects",
       href: "#portfolio",
     },
     // {
-    // 	item: 'Testimonials',
+    // 	name: 'Testimonials',
     // 	href: '#testimonials'
     // },
     {
-      item: "Contact",
+      name: "Contact",
       href: "#contact",
     },
   ],
